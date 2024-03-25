@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.player{
+  list-style-type: none;
+  font-size: larger;
+  padding-right: 70px;
+  margin: 5px;
+}
+.minus{
+  margin-left: 5px;
+  font-size: small;
+  background-color: red;
+}
+.plus{
+  margin-left: 5px;
+  font-size: small;
+  background-color: green;
+}
+.minus:hover,.plus:hover{
+  color: white;
+}
